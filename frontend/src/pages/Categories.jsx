@@ -1,3 +1,2 @@
-export default function Categories() {
-  return <div>Categories Page</div>;
-}
+import { useEffect, useState } from "react";
+import API from "../hooks/useApi";

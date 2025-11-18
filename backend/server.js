@@ -26,6 +26,7 @@ mongoose
 
 const PORT = process.env.PORT || 5050;
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
+  await seedIfNeeded();
   console.log(`Server running on port ${PORT}`);
 });

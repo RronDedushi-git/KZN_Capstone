@@ -9,6 +9,7 @@ const app = express();
 
 // middleware
 app.use(express.json());
+app.use(cors());
 
 // connect to MongoDB Atlas
 mongoose

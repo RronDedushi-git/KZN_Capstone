@@ -136,3 +136,28 @@ a:hover {
   transform: scale(1.03);
 }
 
+.step-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.step-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.step-card {
+  background: #ffffff;
+  padding: 30px 35px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+
+.step-text {
+  font-size: 20px;
+  color: #222;
+  line-height: 1.5;
+}

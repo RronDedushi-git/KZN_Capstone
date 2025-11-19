@@ -171,7 +171,7 @@ a:hover {
 
 .home-container {
   text-align: center;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
 .home-logo {
@@ -190,17 +190,20 @@ a:hover {
 .home-subtitle {
   font-style: italic;
   color: #666;
-  margin-bottom: 35px;
+  margin-bottom: 55px;
 }
 
 .home-question {
+  font-size: 17px;
   color: #333;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .home-button {
   padding: 12px 28px;
   font-size: 15px;
+  border-radius: 8px;
 }
 
 /* ---------------- STEP PAGE ---------------- */

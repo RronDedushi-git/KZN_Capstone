@@ -30,26 +30,18 @@ export default function Categories() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="page-container">
       <h1>Choose a Category</h1>
 
-      <ul style={{ listStyle: "none", padding: 0 }}>
+      <ul className="category-list">
         {categories.map((cat) => {
           const Icon = iconMap[cat.icon];
 
           return (
-            <li key={cat._id} style={{ margin: "10px 0" }}>
-              <Link
-                to={`/category/${cat._id}`}
-                style={{
-                  textDecoration: "none",
-                  color: "black",
-                  display: "flex",
-                  alignItems: "center",
-                }}
-              >
-                <Icon size={24} style={{ marginRight: "10px" }} />
-                {cat.name}
+            <li key={cat._id}>
+              <Link to={`/category/${cat._id}`} className="category-item">
+                <Icon size={26} />
+                <span>{cat.name}</span>
               </Link>
             </li>
           );

@@ -41,10 +41,10 @@ h3 {
   margin-bottom: 40px;
 }
 
-/* ---------------- BUTTONS (GLOBAL) ---------------- */
+/* ---------------- BUTTONS  ---------------- */
 
 .button {
-  background: #111; /* SAME BASE COLOR AS STEP BUTTON */
+  background: #111;
   color: white;
   padding: 12px 26px;
   border-radius: 10px;
@@ -76,7 +76,7 @@ a:hover {
   opacity: 0.7;
 }
 
-/* General page layout */
+/* general page layout */
 .page-container {
   max-width: 600px;
   margin: 60px auto;
@@ -152,9 +152,9 @@ a:hover {
   font-size: 16px;
   font-weight: 500;
   border-radius: 10px;
-  background: #111; /* SAME BASE COLOR AS .button */
+  background: #111;
   color: white;
-  /* box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08); */
+
   transition: all 0.2s ease;
 }
 
@@ -162,7 +162,7 @@ a:hover {
   transform: translateY(0px);
 }
 
-/* Fade animation */
+/* fade animation */
 @keyframes fadeIn {
   from {
     opacity: 0;

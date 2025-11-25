@@ -6,7 +6,7 @@ export async function seedIfNeeded() {
   const count = await Category.countDocuments();
 
   if (count > 0) {
-    console.log("Seed already exists — skipping");
+    console.log("Seed already exists - skipping");
     return;
   }
 

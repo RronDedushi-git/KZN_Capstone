@@ -15,6 +15,10 @@ export default function Navbar() {
         <Link to="/categories">Categories</Link>
         <Link to="/about">About</Link>
       </div>
+      
     </nav>
   );
+
+
+
 }

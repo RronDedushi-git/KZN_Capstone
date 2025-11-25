@@ -15,10 +15,10 @@ export default function useApi() {
     return res.json();
   }
 
-  async function remove(url) {
+  async function del(url) {
     const res = await fetch(BASE_URL + url, { method: "DELETE" });
     return res.json();
   }
 
-  return { get, post, remove };
+  return { get, post, del };
 }
